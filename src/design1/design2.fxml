@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="733.0" styleClass="thebackground" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="design1.Controller">
+   <children>
+      <TableView layoutX="209.0" layoutY="58.0" prefHeight="340.0" prefWidth="475.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <TextField layoutX="36.0" layoutY="149.0" prefHeight="32.0" prefWidth="156.0" promptText="Name" styleClass="inputSection" />
+      <TextField layoutX="36.0" layoutY="196.0" prefHeight="32.0" prefWidth="156.0" promptText="Doctor" styleClass="inputSection" />
+      <TextField layoutX="36.0" layoutY="245.0" prefHeight="32.0" prefWidth="156.0" promptText="Test" styleClass="inputSection" />
+      <TextField layoutX="36.0" layoutY="295.0" prefHeight="32.0" prefWidth="156.0" promptText="Result" styleClass="inputSection" />
+      <JFXButton buttonType="RAISED" layoutX="21.0" layoutY="418.0" text="Insert" textAlignment="CENTER" AnchorPane.leftAnchor="21.0" />
+      <JFXButton buttonType="RAISED" layoutX="80.0" layoutY="418.0" text="update" textAlignment="CENTER" />
+      <JFXButton buttonType="RAISED" layoutX="146.0" layoutY="418.0" text="print" textAlignment="CENTER" />
+      <JFXButton buttonType="RAISED" layoutX="209.0" layoutY="418.0" text="Test &amp;" textAlignment="CENTER" />
+      <JFXButton buttonType="RAISED" layoutX="284.0" layoutY="418.0" prefHeight="25.0" prefWidth="49.0" styleClass="gh" text="Edit">
+         <font>
+            <Font name="Calibri" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="351.0" layoutY="418.0" text="Delete" textAlignment="CENTER" />
+      <ImageView fitHeight="46.0" fitWidth="49.0" layoutX="684.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image/>
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="673.0" layoutY="429.0">
+         <image>
+            <Image/>
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="237.0" layoutX="-38.0" layoutY="27.0">
+         <image>
+            <Image/>
+         </image>
+      </ImageView>
+      <HBox alignment="BOTTOM_RIGHT" layoutX="223.0" layoutY="-18.0" prefHeight="25.0" prefWidth="733.0" style="-fx-background-color: #dfe40;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <FontAwesomeIconView glyphName="MINUS" selectionFill="#363434">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </FontAwesomeIconView>
+            <FontAwesomeIconView glyphName="CIRCLE" selectionFill="#3e53c6">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </FontAwesomeIconView>
+            <FontAwesomeIconView glyphName="CLOSE" selectionFill="#f43d3d" size="16.0" wrappingWidth="12.428571701049805">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </FontAwesomeIconView>
+         </children>
+         <opaqueInsets>
+            <Insets right="10.0" />
+         </opaqueInsets>
+      </HBox>
+   </children>
+</AnchorPane>

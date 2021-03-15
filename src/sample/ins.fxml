@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="contain" prefHeight="443.0" prefWidth="376.0" style="-fx-background-color: #647687;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller3">
+   <children>
+      <TableView fx:id="table2" layoutX="9.0" layoutY="187.0" prefHeight="252.0" prefWidth="353.0" visible="false">
+        <columns>
+          <TableColumn fx:id="col_t" prefWidth="164.0" text="Test" />
+          <TableColumn fx:id="col_n" prefWidth="183.0" text="Normal" />
+        </columns>
+      </TableView>
+      <JFXTextField fx:id="testf" focusColor="#9eb8ff" labelFloat="true" layoutX="99.0" layoutY="23.0" prefHeight="25.0" prefWidth="269.0" promptText="Test" unFocusColor="#31c662">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="normalf" focusColor="#9eb8ff" labelFloat="true" layoutX="99.0" layoutY="94.0" prefHeight="25.0" prefWidth="269.0" promptText="Normal" unFocusColor="#31c662">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="14.0" layoutY="34.0" onAction="#add_test" prefHeight="100.0" prefWidth="52.0" style="-fx-background-color: #f45f5f;" text="save" textFill="#fcf8f8">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="14.0" layoutY="140.0" onAction="#editt" prefHeight="31.0" prefWidth="52.0" style="-fx-background-color: #31c662;" text="Edit" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

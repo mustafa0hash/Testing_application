@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="444.0" prefWidth="428.0" styleClass="thebackground" stylesheets="@../../Style.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.operation">
+   <children>
+      <VBox layoutX="40.0" layoutY="26.0" prefHeight="389.0" prefWidth="213.0">
+         <children>
+            <TextField fx:id="t51" prefHeight="25.0" prefWidth="200.0">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t52">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t53">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t54" text="89.9">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t55" text="1250">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t56">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="name5" layoutX="10.0" layoutY="415.0" promptText="Name">
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="age5" layoutX="10.0" layoutY="460.0" promptText="Age">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="doctor5" layoutX="10.0" layoutY="485.0" promptText="Doctor">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+      <VBox layoutX="272.0" layoutY="26.0" prefHeight="272.0" prefWidth="156.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Label maxHeight="25.0" maxWidth="133.0" minHeight="25.0" minWidth="100.0" prefHeight="25.0" prefWidth="133.0" text="S.Total Protein" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefHeight="29.0" prefWidth="200.0" text="S.Albumin" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="149.0" minHeight="25.0" minWidth="100.0" prefHeight="25.0" prefWidth="149.0" text="S.Globulin" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="148.0" minHeight="25.0" minWidth="100.0" prefHeight="25.0" prefWidth="148.0" text="24 Hr Urine Protein" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="146.0" minHeight="25.0" minWidth="100.0" prefHeight="25.0" prefWidth="146.0" text="24 Hr Urine Volume" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="126.0" minHeight="25.0" minWidth="100.0" prefHeight="25.0" prefWidth="126.0" text="VMA" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Button fx:id="save5" layoutX="299.0" layoutY="355.0" mnemonicParsing="false" onAction="#Save5" prefHeight="25.0" prefWidth="60.0" text="Save" />
+   </children>
+</AnchorPane>

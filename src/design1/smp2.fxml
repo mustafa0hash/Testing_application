@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="813.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="design1.Controller">
+   <children>
+      <JFXTabPane layoutX="3.0" layoutY="39.0" prefHeight="430.0" prefWidth="781.0" side="LEFT" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <tabs>
+            <Tab>
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="470.0" prefWidth="731.0">
+                     <children>
+                        <JFXListView layoutX="422.0" layoutY="35.0" />
+                        <JFXTextField layoutX="67.0" layoutY="109.0" />
+                        <JFXTextField layoutX="67.0" layoutY="179.0" />
+                        <JFXTextField layoutX="67.0" layoutY="255.0" />
+                        <JFXTextField layoutX="67.0" layoutY="337.0" />
+                        <JFXButton layoutX="55.0" layoutY="423.0" text="INSERT" />
+                        <JFXButton layoutX="135.0" layoutY="423.0" text="EDIT" />
+                        <JFXButton layoutX="220.0" layoutY="423.0" text="Button" />
+                     </children></AnchorPane>
+              </content>
+               <graphic>
+                  <VBox prefHeight="92.0" prefWidth="44.0">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="36.0" rotate="90.0">
+                           <image>
+                              <Image url="@../../../../Downloads/icons8-import-48.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </ImageView>
+                        <Text fill="#f8edcd" rotate="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insert">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                  </VBox>
+               </graphic>
+            </Tab>
+            <Tab>
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView layoutX="115.0" layoutY="63.0" prefHeight="227.0" prefWidth="513.0">
+                          <columns>
+                            <TableColumn prefWidth="75.0" text="C1" />
+                            <TableColumn prefWidth="75.0" text="C2" />
+                          </columns>
+                        </TableView>
+                     </children></AnchorPane>
+              </content>
+               <graphic>
+                  <VBox prefHeight="92.0" prefWidth="44.0">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="36.0" rotate="90.0">
+                           <image>
+                              <Image url="@../../../../Downloads/icons8-print-48.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </ImageView>
+                        <Text fill="#f8edcd" rotate="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Print">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                  </VBox>
+               </graphic>
+            </Tab>
+            <Tab>
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView layoutX="69.0" layoutY="46.0" prefHeight="395.0" prefWidth="581.0">
+                          <columns>
+                            <TableColumn prefWidth="75.0" text="C1" />
+                            <TableColumn prefWidth="75.0" text="C2" />
+                          </columns>
+                        </TableView>
+                     </children></AnchorPane>
+              </content>
+               <graphic>
+                  <VBox prefHeight="106.0" prefWidth="59.0">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="36.0" rotate="90.0">
+                           <image>
+                              <Image url="@../../../../Downloads/icons8-time-machine-48.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Text fill="#f8edcd" rotate="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="History">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                  </VBox>
+               </graphic>
+            </Tab>
+            <Tab>
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="356.0" prefWidth="637.0" />
+              </content>
+               <graphic>
+                  <VBox prefHeight="105.0" prefWidth="66.0">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="36.0" rotate="90.0">
+                           <image>
+                              <Image url="@../../../../Downloads/icons8-rename-48.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Text fill="#f8edcd" rotate="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Option">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" right="10.0" top="20.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                  </VBox>
+               </graphic>
+            </Tab>
+         </tabs>
+      </JFXTabPane>
+   </children>
+</AnchorPane>

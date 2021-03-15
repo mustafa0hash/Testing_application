@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="657.0" prefWidth="536.0" styleClass="thebackground" stylesheets="@../../Style.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.operation">
+   <children>
+      <VBox layoutX="167.0" layoutY="28.0" prefHeight="585.0" prefWidth="213.0">
+         <children>
+            <TextField fx:id="t31" prefHeight="25.0" prefWidth="200.0">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t32">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t33">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t34">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t35">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t36" text="Active Mo. :           %">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t37" text="Sluggish :              %">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t38" text="Non motile :          %">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t39" text="Normal  Sp. :         %">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t310" text="Ab-Normal Sp. :       %">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t311" layoutX="10.0" layoutY="415.0">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t312" layoutX="10.0" layoutY="460.0">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="t313" layoutX="10.0" layoutY="460.0">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+      <VBox layoutX="44.0" layoutY="28.0" prefHeight="585.0" prefWidth="123.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Label maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefHeight="25.0" prefWidth="200.0" text="Colour" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefHeight="29.0" prefWidth="200.0" text="Volume" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefHeight="24.0" prefWidth="200.0" text="Reaction" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="126.0" minHeight="25.0" minWidth="100.0" prefHeight="25.0" prefWidth="126.0" text="Lquification time" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefWidth="200.0" text="Total Sp. No." textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefWidth="200.0" text="Active Mo." textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefWidth="200.0" text="Sluggish" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefWidth="200.0" text="Non motile" textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefWidth="200.0" text="Normal  Sp." textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label maxHeight="25.0" maxWidth="118.0" minHeight="25.0" minWidth="100.0" prefHeight="25.0" prefWidth="118.0" text="Ab-Normal Sp." textFill="WHITE">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="415.0" maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefWidth="200.0" text="R.B.Cs" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="10.0" layoutY="415.0" maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefWidth="200.0" text="Pus Cells" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="10.0" layoutY="460.0" maxHeight="25.0" maxWidth="100.0" minHeight="25.0" minWidth="100.0" prefWidth="200.0" text="Others" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <Button fx:id="save3" layoutX="244.0" layoutY="613.0" mnemonicParsing="false" onAction="#Save3" prefHeight="25.0" prefWidth="60.0" text="Save" />
+      <Label layoutX="-23.0" layoutY="295.0" prefHeight="34.0" prefWidth="100.0" rotate="-77.9" text="MOTILITY" textFill="#bbeba5">
+         <font>
+            <Font name="System Italic" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="-17.0" layoutY="409.0" prefHeight="32.0" prefWidth="89.0" rotate="-77.9" text="MORPHOLOGY" textFill="#bbeba5">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name3" layoutX="399.0" layoutY="480.0" prefHeight="25.0" prefWidth="110.0" promptText="Name" />
+      <TextField fx:id="age3" layoutX="400.0" layoutY="523.0" prefHeight="25.0" prefWidth="110.0" promptText="Age" />
+      <TextField fx:id="doctor3" layoutX="400.0" layoutY="569.0" prefHeight="25.0" prefWidth="110.0" promptText="Doctor" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="proj13">
+    <output-path>$PROJECT_DIR$/out/artifacts/proj13</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="windowsIcon" value="$PROJECT_DIR$/stack_icon_174234.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="proj1.jar">
+        <element id="module-output" name="proj1" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/sample/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="extracted-dir" path="$USER_HOME$/Downloads/jfoenix-8.0.10.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/Desktop/DB/sqlite-jdbc-3.32.3.2.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/Downloads/controlsfx-8.0.1.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$USER_HOME$/Documents/STV.jar" path-in-jar="/" />
+        <element id="file-copy" path="$PROJECT_DIR$/chocoleta.ttf" />
+        <element id="file-copy" path="$PROJECT_DIR$/Capture2.PNG" />
+        <element id="file-copy" path="$PROJECT_DIR$/Capture5.PNG" />
+        <element id="file-copy" path="$PROJECT_DIR$/Blankt.jasper" />
+        <element id="file-copy" path="$PROJECT_DIR$/general_s.jasper" />
+        <element id="file-copy" path="$PROJECT_DIR$/seminal.jasper" />
+        <element id="file-copy" path="$PROJECT_DIR$/test2.db" />
+        <element id="file-copy" path="$PROJECT_DIR$/src/sample/zero.jasper" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/test2.db" />
+      <element id="file-copy" path="$PROJECT_DIR$/stack_icon_174234.ico" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="stack" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="778.0" style="-fx-background-color: #B3E5FC;;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="design1.Controller2">
+  <children>
+   <AnchorPane fx:id="anchor">
+      <TextField layoutX="48.0" layoutY="164.0" promptText="name" style="-fx-background-color: #E1F5FE;" />
+      <TextField layoutX="48.0" layoutY="213.0" promptText="Doctor" style="-fx-background-color: #E1F5FE;" />
+      <TextField layoutX="48.0" layoutY="308.0" promptText="result" style="-fx-background-color: #E1F5FE;" />
+      <TextField layoutX="48.0" layoutY="263.0" promptText="Test" style="-fx-background-color: #E1F5FE;" />
+      <TextField layoutX="48.0" layoutY="358.0" promptText="Age" style="-fx-background-color: #E1F5FE;" />
+      <TableView layoutX="238.0" layoutY="97.0" prefHeight="333.0" prefWidth="507.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <HBox alignment="CENTER_RIGHT" layoutX="48.0" layoutY="2.0" prefHeight="25.0" prefWidth="769.0" style="-fx-background-color: #34495e;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <FontAwesomeIconView fill="#3498db" glyphName="MINUS" size="14.0">
+               <HBox.margin>
+                  <Insets right="7.0" top="5.0" />
+               </HBox.margin>
+            </FontAwesomeIconView>
+            <FontAwesomeIconView fill="#2ecc71" glyphName="CIRCLE" size="14.0">
+               <HBox.margin>
+                  <Insets right="7.0" />
+               </HBox.margin>
+            </FontAwesomeIconView>
+            <FontAwesomeIconView fill="#e74c3c" glyphName="CLOSE" size="14.0">
+               <HBox.margin>
+                  <Insets right="7.0" />
+               </HBox.margin>
+            </FontAwesomeIconView>
+         </children></HBox>
+      <Button layoutX="48.0" layoutY="444.0" mnemonicParsing="false" stylesheets="@Style.css" text="Insert" />
+      <ImageView fitHeight="113.0" fitWidth="200.0" layoutX="23.0" layoutY="25.0">
+         <image>
+            <Image url="@../sample/png-clipart-erlenmeyer-flask-illustration-chemistry-computer-icons-laboratory-flasks-test-tubes-icon-chemical-miscellaneous-blue-removebg-preview(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="45.0" layoutX="677.0" layoutY="41.0">
+         <image>
+            <Image url="@../sample/icons8-refresh-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="45.0" layoutX="677.0" layoutY="444.0">
+         <image>
+            <Image url="@../sample/icons8-database-export-64.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="116.0" layoutY="444.0" mnemonicParsing="false" stylesheets="@Style.css" text="insert test" />
+      <Button layoutX="196.0" layoutY="444.0" mnemonicParsing="false" stylesheets="@Style.css" text="Edit" />
+      <Button layoutX="251.0" layoutY="444.0" mnemonicParsing="false" stylesheets="@Style.css" text="Delete" />
+      <Button layoutX="337.0" layoutY="444.0" mnemonicParsing="false" stylesheets="@Style.css" text="Print" />
+      <Button fx:id="button" layoutX="389.0" layoutY="444.0" mnemonicParsing="false" onAction="#next" stylesheets="@Style.css" text="next" />
+   </AnchorPane>
+  </children>
+</StackPane>
